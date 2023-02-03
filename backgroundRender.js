@@ -445,7 +445,7 @@ function Enemy(x, y, range) {
     with one small exception. The collectables move on the y axis, in a loop, 
     while enemies move on the x axis.
 */
-function Collectables(x, y, range, isFound) {
+function Collectables(x, y, range) {
   this.x = x;
   this.y = y;
   this.range = range;
